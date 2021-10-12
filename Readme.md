@@ -1,0 +1,1 @@
+# Schema Spy Docker

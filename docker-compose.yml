@@ -1,0 +1,14 @@
+version: "3.3"
+
+services:
+  schemaspy:
+    image: schemaspy/schemaspy
+    volumes:
+      - ./output:/output
+      - ./schemaspy.properties:/schemaspy.properties
+    networks:
+      - default
+networks:
+  default:
+    external:
+      name: ${NETWORK_NAME}
