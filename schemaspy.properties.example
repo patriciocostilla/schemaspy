@@ -5,10 +5,10 @@ schemaspy.t=mysql
 # database properties: host, port number, name user, password
 schemaspy.host=db
 schemaspy.port=3306
-schemaspy.db=winti_db
-schemaspy.u=root
-schemaspy.p=root
+schemaspy.db=example_db
+schemaspy.u=exampleuser
+schemaspy.p=examplepass
 # output dir to save generated files
 # schemaspy.o=output/
 # db scheme for which generate diagrams
-schemaspy.s=winti_db
+schemaspy.s=example_db
